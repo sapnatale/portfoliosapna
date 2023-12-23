@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+padding-right: 70%;
+gap: 15px;
+color: #fff;
+margin: 0%;
+flex-direction: row;
+text-emphasis-color: white;
+}
+header {
+    background-color: #111;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 57px;
+    height: 50px;
+    background-color: black;
+    
+}
+
+main {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+   
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    background: url('hero-background.jpg') center/cover no-repeat;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3e47;
+}
+
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 1rem;
+}
+.container{
+    width: 127%;
+   
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+    margin:0 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo img {
+    height: 40px;
+}
